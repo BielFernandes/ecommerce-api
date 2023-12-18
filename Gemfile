@@ -14,6 +14,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem 'devise_token_auth'
 
+gem 'rack-cors'
 
 group :development, :test do
 gem "debug", platforms: %i[ mri windows ]
