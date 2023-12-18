@@ -17,7 +17,11 @@ gem 'devise_token_auth'
 gem 'rack-cors'
 
 group :development, :test do
-gem "debug", platforms: %i[ mri windows ]
+  gem "debug", platforms: %i[ mri windows ]
+   gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'shoulda-matchers'
+
 end
 
 group :development do
