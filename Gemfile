@@ -18,6 +18,8 @@ gem 'rack-cors'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
+
+  gem 'faker'
    gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'shoulda-matchers'
